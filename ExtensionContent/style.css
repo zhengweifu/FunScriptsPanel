@@ -1,0 +1,12 @@
+ul li {
+	list-style:none;
+	margin: 10px 0;
+}
+
+#fun_output_div {
+	height: 100px;
+	width: 100%;
+	border: 1px solid #ccc;
+	overflow: auto;
+	border-radius: 4px;
+}

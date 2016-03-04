@@ -1,0 +1,35 @@
+<!doctype html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<script src="./ext.js"></script>
+<script src="./lib/CSInterface-4.0.0.js"></script>
+<script src="./lib/jquery-1.9.1.js"></script>
+<script src="./lib/bootstrap/js/bootstrap.min.js"></script>
+
+<link type="text/css" rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="./style.css">
+
+<title>FunScriptsPanel</title>
+</head>
+
+<body onLoad="onLoaded()">
+<div class="container">
+<ul>
+  <li><div class="row">
+  	<div class="col-xs-8">
+  		<input class="form-control" id="fun_import_curve_input" style="width: 100%;">
+  	</div>
+  	<div class="col-xs-4">
+  		<button class="btn btn-default btn-block" id="fun_import_curve_btn" onClick="onImportCurves()">导入曲线</button>
+  	</div>
+  </div></li>
+  <li><button class="btn btn-default btn-block" id="fun_export_curve_btn" onClick="onExportCurves()">导出曲线</button></li>
+  <li><div id="fun_output_div"></div></li>
+</ul>
+</div>
+</body>
+
+</html>
